@@ -2,26 +2,27 @@
 Group Policy Remover- Win-10/11
 ===============================
 
-This script is designed to help you remove specific registry keys that may be causing issues on your Windows system. Please follow these steps to run the cleanup script:
+**Purpose:**
 
-1. **Backup Important Data**: Before running any script that modifies the Windows Registry, it's essential to back up your important data and create a system restore point for added safety.
+This script is designed to help individuals remove specific Windows Registry keys associated with organizational accounts. In some cases, organizations register Windows copies for their users, which may include certain policies or restrictions. This script aims to assist users in regaining control over their systems by cleaning up these registry entries.
 
-2. **Run as Administrator**: Ensure you run the script with administrator privileges. Right-click on `run.bat` and select "Run as administrator" from the context menu.
+**Usage Instructions:**
+1. **Backup Important Data:** Before running any script that modifies the Windows Registry, it's crucial to back up your important data and create a system restore point for added safety.
 
-3. **Script Execution**: Once you've run `run.bat` as an administrator, a PowerShell window will appear, and the script will execute. It will delete the specified registry keys known to cause problems.
+2. **Administrator Privileges:** Ensure you run the script with administrator privileges. Right-click on `run.bat` and select "Run as administrator" from the context menu.
 
-4. **Confirmation**: The script will display messages as it progresses through the cleanup process. Registry keys that are successfully deleted will be listed.
+3. **Script Execution:** Once you've run `run.bat` as an administrator, a PowerShell window will appear, and the script will execute. It will delete the specified registry keys related to organizational accounts.
 
-5. **Completion**: Once the script has finished, it will display a message indicating that the registry cleanup is completed.
+4. **Progress and Confirmation:** The script will display messages as it progresses through the cleanup process. Registry keys that are successfully deleted will be listed.
 
-6. **Reboot**: After the cleanup is done, it's recommended to reboot your computer for the changes to take effect.
+5. **Completion and Reboot:** Once the script has finished, it will display a message indicating that the registry cleanup is completed. For the changes to take effect, it's recommended to reboot your computer.
 
-**Note**: 
-- Please use this script with caution, and only run it if you are experiencing issues related to the specified registry keys.
-- It is always a good practice to understand the changes a script makes to your system. Review the `cleanup.ps1` script to see the exact registry keys being deleted.
+**Note:** 
+- Please use this script responsibly and only if you are experiencing issues related to organizational policies.
+- It is essential to review the `cleanup.ps1` script to understand the exact registry keys being deleted and the potential impact on your system.
 
 **Disclaimer**:
-This script is provided as-is, without any warranties or guarantees. The user is responsible for any consequences that may result from using this script. It is recommended to consult with a qualified professional before making changes to the Windows Registry.
+This script is provided as-is, without any warranties or guarantees. The user is responsible for any consequences that may result from using this script. It is advisable to consult with a qualified professional before making changes to the Windows Registry.
 
 If you encounter any problems or have questions, feel free to seek assistance from knowledgeable sources or communities specializing in Windows system maintenance and troubleshooting.
 
